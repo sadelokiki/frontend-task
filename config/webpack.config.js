@@ -43,6 +43,9 @@ module.exports = {
                 sourcemaps: true,
               },
             },
+            {
+              loader: 'postcss-loader'
+            },
           ],
         }),
       },
@@ -63,6 +66,9 @@ module.exports = {
               options: {
                 sourcemaps: true,
               },
+            },
+            {
+              loader: 'postcss-loader'
             },
           ],
         }),
